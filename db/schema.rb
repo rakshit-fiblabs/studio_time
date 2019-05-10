@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20190510151221) do
     t.float "price_per_hour"
     t.float "studio_fees"
     t.integer "booking_id"
+    t.integer "duration"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
