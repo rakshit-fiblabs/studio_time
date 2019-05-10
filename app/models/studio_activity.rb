@@ -1,0 +1,2 @@
+class StudioActivity < ApplicationRecord
+end
